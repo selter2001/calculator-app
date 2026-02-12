@@ -1,0 +1,15 @@
+{
+  "name": "calculator-app",
+  "version": "1.0.0",
+  "description": "Zaawansowany kalkulator CLI z obsługą nieskończenie dużych liczb",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": ["calculator", "cli", "bigint", "typescript"],
+  "author": "",
+  "license": "MIT"
+}
