@@ -1,0 +1,93 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║              ⚡  KALKULATOR PRO - JAK URUCHOMIĆ  ⚡           ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+
+🚀 SZYBKI START - wybierz swój system:
+
+┌─────────────────────────────────────────────────────────────┐
+│  WINDOWS                                                     │
+└─────────────────────────────────────────────────────────────┘
+
+   1. Kliknij dwukrotnie na plik:  run.bat
+   
+   LUB
+   
+   2. Otwórz terminal (cmd/PowerShell) w tym folderze i wpisz:
+      node dist\index.js
+
+
+┌─────────────────────────────────────────────────────────────┐
+│  MAC / LINUX                                                 │
+└─────────────────────────────────────────────────────────────┘
+
+   1. Kliknij dwukrotnie na plik:  run.sh
+   
+   LUB
+   
+   2. Otwórz terminal w tym folderze i wpisz:
+      ./run.sh
+   
+   LUB
+   
+   3. Bezpośrednio:
+      node dist/index.js
+
+
+┌─────────────────────────────────────────────────────────────┐
+│  JEŚLI NIE DZIAŁA                                            │
+└─────────────────────────────────────────────────────────────┘
+
+   ❌ Problem: "node: command not found" lub podobny błąd
+   
+   ✅ Rozwiązanie: Musisz zainstalować Node.js
+      
+      Pobierz z: https://nodejs.org
+      
+      Zainstaluj wersję LTS (Long Term Support)
+      
+      Po instalacji uruchom ponownie terminal i spróbuj jeszcze raz
+
+
+┌─────────────────────────────────────────────────────────────┐
+│  ALTERNATYWNE METODY                                         │
+└─────────────────────────────────────────────────────────────┘
+
+   Jeśli masz zainstalowany npm:
+   
+   npm start
+   
+   Jeśli chcesz przebudować projekt:
+   
+   npm run build
+   npm start
+
+
+═══════════════════════════════════════════════════════════════
+
+📚 DOKUMENTACJA
+
+   README.md         - Pełna dokumentacja
+   QUICK_START.md    - Szybki przewodnik
+   EXAMPLES.md       - Przykłady użycia
+   FAQ.md            - Często zadawane pytania
+   INTERFACE.md      - Wygląd interfejsu
+   TECHNICAL.md      - Dokumentacja techniczna
+
+═══════════════════════════════════════════════════════════════
+
+💡 PIERWSZE KROKI W KALKULATORZE
+
+   Po uruchomieniu wpisz:
+   
+   pomoc        - zobacz wszystkie funkcje
+   2 + 2        - proste dodawanie
+   2^100        - potęgowanie
+   historia     - historia obliczeń
+   exit         - wyjście
+
+═══════════════════════════════════════════════════════════════
+
+🎉 MIŁEGO OBLICZANIA!
