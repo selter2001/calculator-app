@@ -8,6 +8,54 @@
 
 A terminal-based calculator written in TypeScript with native BigInt support for arbitrarily large integer arithmetic. Features an interactive REPL with colorful ANSI output, Unicode box-drawing frames, full parenthesized expressions, and operator precedence -- all with zero external dependencies.
 
+## Screenshots
+
+### Welcome & Help
+
+<p align="center">
+  <img src="screenshots/01_welcome_screen.png" width="520" alt="Welcome Screen">
+</p>
+
+<p align="center">
+  <sub>REPL start with stylized KALKULATOR PRO banner and Unicode box-drawing frame</sub>
+</p>
+
+<p align="center">
+  <img src="screenshots/02_help_menu.png" width="520" alt="Help Menu — Operators, Commands & Examples">
+</p>
+
+<p align="center">
+  <sub>Built-in help: operators (+, -, *, /, ^, %), commands (historia, czyść, pomoc, exit), and examples</sub>
+</p>
+
+### Calculations & History
+
+<p align="center">
+  <img src="screenshots/03_calculations.png" width="520" alt="Calculations — Mixed Expressions">
+</p>
+
+<p align="center">
+  <sub>Evaluating expressions with operator precedence: <code>2-2+99+444*13 = 5871</code> and <code>4444+3222/43*9 = 5118.37...</code></sub>
+</p>
+
+<p align="center">
+  <img src="screenshots/04_history.png" width="520" alt="Calculation History">
+</p>
+
+<p align="center">
+  <sub>Calculation history with numbered entries and color-highlighted results</sub>
+</p>
+
+<p align="center">
+  <img src="screenshots/05_exit.png" width="520" alt="Exit">
+</p>
+
+<p align="center">
+  <sub>Graceful exit with goodbye message</sub>
+</p>
+
+---
+
 ## Features
 
 - **BigInt arbitrary precision** -- compute with integers of unlimited size
@@ -90,6 +138,54 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ![Zależności](https://img.shields.io/badge/Zależności-0-brightgreen?style=flat)
 
 Terminalowy kalkulator napisany w TypeScript z natywną obsługą BigInt do arytmetyki na dowolnie dużych liczbach całkowitych. Oferuje interaktywny REPL z kolorowym wyjściem ANSI, ramkami Unicode, pełną obsługą wyrażeń w nawiasach i priorytetem operatorów -- bez żadnych zewnętrznych zależności.
+
+## Zrzuty ekranu
+
+### Powitanie i pomoc
+
+<p align="center">
+  <img src="screenshots/01_welcome_screen.png" width="520" alt="Ekran powitalny">
+</p>
+
+<p align="center">
+  <sub>Start REPL ze stylizowanym banerem KALKULATOR PRO i ramką Unicode</sub>
+</p>
+
+<p align="center">
+  <img src="screenshots/02_help_menu.png" width="520" alt="Menu pomocy — Operatory, polecenia i przykłady">
+</p>
+
+<p align="center">
+  <sub>Wbudowana pomoc: operatory (+, -, *, /, ^, %), polecenia (historia, czyść, pomoc, exit) i przykłady</sub>
+</p>
+
+### Obliczenia i historia
+
+<p align="center">
+  <img src="screenshots/03_calculations.png" width="520" alt="Obliczenia — Wyrażenia mieszane">
+</p>
+
+<p align="center">
+  <sub>Ewaluacja wyrażeń z priorytetem operatorów: <code>2-2+99+444*13 = 5871</code> i <code>4444+3222/43*9 = 5118.37...</code></sub>
+</p>
+
+<p align="center">
+  <img src="screenshots/04_history.png" width="520" alt="Historia obliczeń">
+</p>
+
+<p align="center">
+  <sub>Historia obliczeń z numerowanymi wpisami i kolorowymi wynikami</sub>
+</p>
+
+<p align="center">
+  <img src="screenshots/05_exit.png" width="520" alt="Wyjście">
+</p>
+
+<p align="center">
+  <sub>Zakończenie programu z komunikatem pożegnalnym</sub>
+</p>
+
+---
 
 ## Funkcjonalności
 
